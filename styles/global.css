@@ -61,24 +61,6 @@ img{
 }
 
 
-.tag {
-    background-color: var(--gray-400);
-    padding: .5rem 1rem;
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    border-radius: 4rem;
-
-    & img{
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-
-    & span {
-        color: var(--gray-200);
-        font: var(--text-md);
-    }
-}
 
 .project-card {
     background-color: var(--gray-400);
