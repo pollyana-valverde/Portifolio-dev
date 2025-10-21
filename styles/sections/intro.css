@@ -1,0 +1,46 @@
+#intro {
+    background: url(../../assets/Background_Intro.png) no-repeat bottom center / contain;
+    height: 100vh;
+
+    & .img-perfil {
+        position: relative;
+        border: 2px solid var(--red);
+        border-radius: 4rem;
+        width: fit-content;
+        margin-inline: auto;
+        padding: .25rem;
+        width: 6rem;
+        height: 6rem;
+
+        &::after{
+            content: "";
+            position: absolute;
+            background: url(../../assets/icons/Code.svg) no-repeat bottom center / contain;
+            height: 2rem;
+            width: 2rem;
+            bottom: 0;
+            right: -.5rem;
+        }
+
+        & img {
+            object-fit: cover;
+            border-radius: 4rem;
+        }
+    }
+
+    & .intro-content {
+        margin-top: 3.5rem;
+        margin-bottom: 5rem;
+        max-width: 680px;
+        margin-inline: auto;
+
+        & h1 {
+            margin-top: .5rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+
+    & .arrow-down{
+        margin-top: 6rem;
+    }
+}

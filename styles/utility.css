@@ -33,6 +33,18 @@
     display: flex;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
 .grid{
     display: grid;
 }
@@ -47,5 +59,9 @@
 
 .gap-1\.5{
     gap: 1.5rem;
+}
+
+.py-xl{
+    padding-block: var(--py-xl);
 }
 
