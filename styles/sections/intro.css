@@ -1,5 +1,5 @@
 #intro {
-    background: url(../../assets/Background_Intro.png) no-repeat bottom center / contain;
+    background: url(../../assets/Background_Intro.png) no-repeat bottom center / cover;
     height: 100vh;
 
     & .img-perfil {
