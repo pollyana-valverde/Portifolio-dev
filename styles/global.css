@@ -63,11 +63,7 @@ img{
 
 
 
-.service-card{
-    border-radius: .75rem;
-    padding: .875rem;
-    border: 2px solid var(--gray-500);
-}
+
 
 .social-button {
     background-color: var(--gray-400);
