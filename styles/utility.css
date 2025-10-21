@@ -1,0 +1,51 @@
+/* colors */
+.red{
+    color: var(--red);
+}
+
+.purple{
+    color: var(--purple);
+}
+
+.gray-200{
+    color: var(--gray-200);
+}
+
+.gray-300{
+    color: var(--gray-300);
+}
+
+/* fonts */
+.subtitle{
+    font: var(--subtitle);
+}
+
+.text-md{
+    font: var(--text-md);
+}
+
+.text-sm{
+    font: var(--text-sm);
+}
+
+/* general */
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.cols-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.gap-1\.5{
+    gap: 1.5rem;
+}
+
