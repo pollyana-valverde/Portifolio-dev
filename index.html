@@ -1,216 +1,272 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portifólio</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,700;1,700&family=Inconsolata&family=Maven+Pro:wght@400..900&display=swap"
+            rel="stylesheet"
+        />
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,700;1,700&family=Inconsolata&family=Maven+Pro:wght@400..900&display=swap"
-        rel="stylesheet">
+        <link rel="stylesheet" href="styles/index.css" />
+    </head>
 
-    <link rel="stylesheet" href="styles/index.css">
-</head>
-
-<body>
-    <section id="intro" class="grid items-center">
-        <div class="container text-center py-xl ">
-            <div class="img-perfil">
-                <img src="assets/foto_perfil.png" alt="">
-            </div>
-
-            <div class="intro-content">
-                <span class="subtitle">Hello World! Meu nome é <span class="red">Pollyana Valverde</span> e sou</span>
-                <h1>Desenvolvedora Fullstack</h1>
-                <p class="text-sm gray-300">Transformo necessidades em aplicações reais, evolventes e funcionais.
-                    Desenvolvo
-                    sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes
-                    para
-                    desafios complexos.</p>
-            </div>
-
-            <div class="flex gap-1 justify-center tags-group">
-                <div class="tag">
-                    <img src="assets/icons/GitHub.svg" alt="">
-                    <span>GitHub</span>
+    <body>
+        <section id="intro" class="grid items-center">
+            <div class="container text-center py-xl">
+                <div class="img-perfil">
+                    <img src="assets/foto_perfil.png" alt="" />
                 </div>
-                <div class="tag">
-                    <img src="assets/icons/HTML.svg" alt="">
-                    <span>HTML</span>
-                </div>
-                <div class="tag">
-                    <img src="assets/icons/CSS.svg" alt="">
-                    <span>CSS</span>
-                </div>
-                <div class="tag">
-                    <img src="assets/icons/JavaScript.svg" alt="">
-                    <span>JavaScript</span>
-                </div>
-                <div class="tag">
-                    <img src="assets/icons/React.svg" alt="">
-                    <span>React</span>
-                </div>
-                <div class="tag">
-                    <img src="assets/icons/Node.js.svg" alt="">
-                    <span>Node.js</span>
-                </div>
-            </div>
 
-            <img class="arrow-down" src="assets/icons/CaretDoubleDown.svg" alt="">
-        </div>
-    </section>
+                <div class="intro-content">
+                    <span class="subtitle"
+                        >Hello World! Meu nome é
+                        <span class="red">Pollyana Valverde</span> e sou</span
+                    >
+                    <h1>Desenvolvedora Fullstack</h1>
+                    <p class="text-sm gray-300">
+                        Transformo necessidades em aplicações reais, evolventes
+                        e funcionais. Desenvolvo sistemas através da minha
+                        paixão pela tecnologia, contribuindo com soluções
+                        inovadoras e eficazes para desafios complexos.
+                    </p>
+                </div>
 
-    <section id="projects">
-        <div class="container grid justify-center ">
-            <div class="header text-center grid gap-.5">
-                <span class="subtitle red">Meu trabalho</span>
-                <h2>Veja os projetos em destaque</h2>
-            </div>
-
-            <div class="project-cards-group grid cols-3 gap-1.5">
-                <div class="project-card grid gap-1.5">
-                    <img src="assets/Thumbnail_Project-01.png" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>Travelgram</h3>
-                        <p class="text-sm gray-200">
-                            Rede social onde as pessoas mostram os registros de suas viagens pelo mundo
-                        </p>
+                <div class="flex gap-1 justify-center tags-group">
+                    <div class="tag">
+                        <img src="assets/icons/GitHub.svg" alt="" />
+                        <span>GitHub</span>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/icons/HTML.svg" alt="" />
+                        <span>HTML</span>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/icons/CSS.svg" alt="" />
+                        <span>CSS</span>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/icons/JavaScript.svg" alt="" />
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/icons/React.svg" alt="" />
+                        <span>React</span>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/icons/Node.js.svg" alt="" />
+                        <span>Node.js</span>
+                    </div>
+                    <div class="tag">
+                        <span>Outros...</span>
                     </div>
                 </div>
 
-                <div class="project-card grid gap-1.5">
-                    <img src="assets/Thumbnail_Project-02.png" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>Tech News</h3>
-                        <p class="text-sm gray-200">
-                            Homepage de um portal de notícias sobre a área de tecnologia
-                        </p>
-                    </div>
+                <img
+                    class="arrow-down"
+                    src="assets/icons/CaretDoubleDown.svg"
+                    alt=""
+                />
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container grid justify-center">
+                <div class="header text-center grid gap-.5">
+                    <span class="subtitle red">Meu trabalho</span>
+                    <h2>Veja os projetos em destaque</h2>
                 </div>
 
-                <div class="project-card grid gap-1.5">
-                    <img src="assets/Thumbnail_Project-03.png" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>Página de receita</h3>
-                        <p class="text-sm gray-200">
-                            Página com o passo a passo de uma receita para cupcakes
-                        </p>
-                    </div>
+                <div class="project-cards-group grid cols-3 gap-1.5">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://task-flow-peach-sigma.vercel.app"
+                        class="project-card grid gap-1.5"
+                    >
+                        <img src="assets/task-flow-thumb.png" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>Task Flow</h3>
+                            <p class="text-sm gray-200">
+                                Sistema de tarefas, boards e workspaces
+                                colaborativos.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://help-desk-rho-one.vercel.app/"
+                        class="project-card grid gap-1.5"
+                    >
+                        <img src="assets/thumb-help-desk.png" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>Help Desk</h3>
+                            <p class="text-sm gray-200">
+                                Sistema de HelpDesk para gerenciamento de
+                                chamados técnicos.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://book-review-lime.vercel.app/"
+                        class="project-card grid gap-1.5"
+                    >
+                        <img src="assets/thumb-book-review.png" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>Book Review</h3>
+                            <p class="text-sm gray-200">
+                                Aplicação web para criar, organizar e consultar
+                                resenhas de livros por albums/categorias.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://pollyana-valverde.github.io/Zingen/"
+                        class="project-card grid gap-1.5"
+                    >
+                        <img src="assets/Thumbnail_Project-04.png" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>Zingen</h3>
+                            <p class="text-sm gray-200">
+                                Landing Page completa e responsiva de um
+                                aplicativo de Karaokê
+                            </p>
+                        </div>
+                    </a>
+
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://adivinhe-six.vercel.app/"
+                        class="project-card grid gap-1.5"
+                    >
+                        <img src="assets/thumb-adivinhe.png" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>Adivinhe</h3>
+                            <p class="text-sm gray-200">
+                                Um jogo de adivinhação. O objetivo é descobrir
+                                uma palavra secreta, com dicas a cada tentativa.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://coffee-delivery-ten-sooty.vercel.app/"
+                        class="project-card grid gap-1.5"
+                    >
+                        <img src="assets/thumb-coffee-delivery.png" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>Coffee delivery</h3>
+                            <p class="text-sm gray-200">
+                                Sistema básico de cardápio e delivery de cafés.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <div class="header text-center grid gap-.5">
+                    <span class="subtitle red">Meus serviços</span>
+                    <h2>Como posso ajudar o seu negócio</h2>
                 </div>
 
-                <div class="project-card grid gap-1.5">
-                    <img src="assets/Thumbnail_Project-04.png" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>Zingen</h3>
-                        <p class="text-sm gray-200">
-                            Landing Page completa e responsiva de um aplicativo de Karaokê
-                        </p>
+                <div class="service-card-group grid cols-3 gap-1.5">
+                    <div class="service-card grid gap-1">
+                        <img src="assets/icons/Devices.svg" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>Websites e Aplicativos</h3>
+                            <p class="text-sm gray-200">
+                                Desenvolvimento de interfaces
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="project-card grid gap-1.5">
-                    <img src="assets/Thumbnail_Project-05.png" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>Refund</h3>
-                        <p class="text-sm gray-200">
-                            Um sistema para pedido e acompanhamento de reembolso
-                        </p>
+                    <div class="service-card grid gap-1">
+                        <img src="assets/icons/HardDrives.svg" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>API e banco de dados</h3>
+                            <p class="text-sm gray-200">
+                                Criação de serviços do sistema
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="project-card grid gap-1.5">
-                    <img src="assets/Thumbnail_Project-06.png" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>Página de turismo</h3>
-                        <p class="text-sm gray-200">
-                            Página com as principais informações para quem quer viajar para Busan
-                        </p>
+                    <div class="service-card grid gap-1">
+                        <img src="assets/icons/Infinity.svg" alt="" />
+                        <div class="card-content grid gap-.5">
+                            <h3>DevOps</h3>
+                            <p class="text-sm gray-200">
+                                Gestão e infraestrutura da aplicação
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="header text-center grid gap-.5">
-                <span class="subtitle red">Meus serviços</span>
-                <h2>Como posso ajudar o seu negócio</h2>
-            </div>
-
-            <div class="service-card-group grid cols-3 gap-1.5">
-                <div class="service-card grid gap-1">
-                    <img src="assets/icons/Devices.svg" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>Websites e Aplicativos</h3>
-                        <p class="text-sm gray-200">
-                            Desenvolvimento de interfaces
-                        </p>
-                    </div>
+        <section id="contact">
+            <div class="container grid justify-center">
+                <div class="header text-center grid gap-.5">
+                    <span class="subtitle purple">Contato</span>
+                    <h2>Gostou do meu trabalho?</h2>
+                    <p class="text-md gray-200">
+                        Entre em contato ou acompanhe as minhas redes sociais!
+                    </p>
                 </div>
 
-                <div class="service-card grid gap-1">
-                    <img src="assets/icons/HardDrives.svg" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>API e banco de dados</h3>
-                        <p class="text-sm gray-200">
-                            Criação de serviços do sistema
-                        </p>
-                    </div>
-                </div>
+                <div class="social-buttons-group grid gap-1.5">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/pollyana-valverde/"
+                        class="social-button flex gap-1 items-center"
+                    >
+                        <img src="assets/icons/LinkedinLogo.svg" alt="" />
+                        <p class="text-md gray-200">Linkedin</p>
+                        <img src="assets/icons/ArrowUpRight.svg" alt="" />
+                    </a>
 
-                <div class="service-card grid gap-1">
-                    <img src="assets/icons/Infinity.svg" alt="">
-                    <div class="card-content grid gap-.5">
-                        <h3>DevOps</h3>
-                        <p class="text-sm gray-200">
-                            Gestão e infraestrutura da aplicação
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/pollyana-valverde"
+                        class="social-button flex gap-1 items-center"
+                    >
+                        <img src="assets/icons/GitHubLogo.svg" alt="" />
+                        <p class="text-md gray-200">GitHub</p>
+                        <img src="assets/icons/ArrowUpRight.svg" alt="" />
+                    </a>
 
-    <section id="contact">
-        <div class="container grid justify-center ">
-            <div class="header text-center grid gap-.5">
-                <span class="subtitle purple">Contato</span>
-                <h2>Gostou do meu trabalho? </h2>
-                <p class="text-md gray-200">Entre em contato ou acompanhe as minhas redes sociais!</p>
-            </div>
-
-            <div class="social-buttons-group grid gap-1.5">
-                <div class="social-button flex gap-1 items-center">
-                    <img src="assets/icons/LinkedinLogo.svg" alt="">
-                    <p class="text-md gray-200">Linkedin</p>
-                    <img src="assets/icons/ArrowUpRight.svg" alt="">
-                </div>
-
-                <div class="social-button flex gap-1 items-center">
-                    <img src="assets/icons/InstagramLogo.svg" alt="">
-                    <p class="text-md gray-200">Instagram</p>
-                    <img src="assets/icons/ArrowUpRight.svg" alt="">
-                </div>
-
-                <div class="social-button flex gap-1 items-center">
-                    <img src="assets/icons/GitHubLogo.svg" alt="">
-                    <p class="text-md gray-200">GitHub</p>
-                    <img src="assets/icons/ArrowUpRight.svg" alt="">
-                </div>
-
-                <div class="social-button flex gap-1 items-center">
-                    <img src="assets/icons/EnvelopeSimple.svg" alt="">
-                    <p class="text-md gray-200">E-mail</p>
-                    <img src="assets/icons/ArrowUpRight.svg" alt="">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsLTHfsDlQGtPHhnmtVVqXjkHSjkkSJqWXnhvGQMRtQRbSPbvfJBktnsJgDVLxFZDJJJqKql"
+                        class="social-button flex gap-1 items-center"
+                    >
+                        <img src="assets/icons/EnvelopeSimple.svg" alt="" />
+                        <p class="text-md gray-200">E-mail</p>
+                        <img src="assets/icons/ArrowUpRight.svg" alt="" />
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-</body>
-
+        </section>
+    </body>
 </html>
